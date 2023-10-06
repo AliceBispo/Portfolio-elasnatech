@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header-menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 50px; 
+    background-color: #e51313; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .header-menu nav {
+    display: flex; 
+    justify-content: flex-end; 
+    width: 100%; 
+  }
+  
+  .lista-menu{
+    display: flex;
+    justify-content: space-evenly; 
+    width: 50%; 
+    align-items: center;
+  }
+  
+  .lista-menu li>a {
+    color: #FFF; 
+    font-size: 18px; 
+    text-decoration: inherit; 
+  }
+  
+  .principal{
+    height: 100vh; 
+    display: flex;
+    background-color: #f3ecec;
+  }
+  
+  .container {
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 75px; 
+    max-width: 960px; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    width: 100%; 
+  }
+  
+  .subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #imagem_perfil {
+    width: 18%;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+  }
+
+  .nome-completo {
+    font-size: 36px;
+    color: #f03aaa;
+    font-weight: 700; 
+    height: 45px;
+  }
+  
+  .profissao{
+    color: #631ca0;
+    height: 60PX;
+  }
+  
+  .texto-sobre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 32px; 
+    text-align: justify;
+  }
+  
+  .article-lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    text-align: left;
+    line-height: 32px; 
+  }
+  
+  .topico-principal {
+    font-size: 36px;
+    color: #ac0a6e;
+  }
+  
+  .lista-item{
+    padding: 32px;
+  }
+  
+  .lista-item ul li {
+    margin-bottom: 32px; 
+  }
+  
+  .lista-titulo{
+   margin-bottom: 5px; 
+   font-size: 22px;
+   color: #631ca0;
+   font-weight: 700;
+  }
+  
+  .lista-local{
+    font-size: 18px;
+    color: #2F80ED;
+    
+  }
+  
+  .lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 32px; 
+    font-weight: 300;
+  }
+  
+  .rodape{
+    background-color: #080808;
+    height: 250px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .lista-rodape li{
+    color: #580f7a;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items:center;
+    margin: 0px 25px 18px 100px;
+  }
+  
+  .estilo-icone{
+   font-size: 32px;
+   margin-right: 10px;
+   text-align:right;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #ed67679a;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #0e010e;
+    text-shadow: 5px 5px 5px black;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #111011;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #ff66f5;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
